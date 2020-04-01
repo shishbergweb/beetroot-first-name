@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: #273231;
+  min-height: 100vh;
+  font-size: 100%;
+    }
+header {
+  margin-bottom: 16px;
+  background-color: #4a4f56;
+  color: #eb7e7f;
+  text-align: center;
+  min-height: 120px;
+  font-size: 24px;
+}
+.list {
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+/*.list: :hover {
+  color: #625e77;
+}*/
+
+
+ul {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  height: 32px;
+  width: 50%;
+  padding: 5px 10px;
+  color: white;
+  margin-bottom: -2px;
+
+}
+ul:last-child {
+  margin-bottom: 0;
+}
+.list__picles, .list__oranges, .list__bentos {
+ background-color: #7b7b91;
+}
+.list__apples, .list__plates, .list__sake {
+  background-color:#6a6a87 ;
+}
+.footer {
+  background-color:#4a4f56;
+  color: #eb7e7f;
+  text-align: center;
+  height: 70px;
+  font-size: 32px;
+}
+
+/*li::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #c3c3c3b6;
+
+}*/
